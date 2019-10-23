@@ -1,7 +1,16 @@
 #!/usr/local/bin/python2
 
-# Simple code to calculate the largest product based off "n" consecutive digits in the 1000 character number
+# Euler Project
+# Problem 8: https://projecteuler.net/problem=8
 
+# Author: Yibo Weng
+# Date: 12/03/2019
+
+# Comment: Code is kinda bad and unnecessary as this is more of an exercise in OOP
+#           than anything else
+
+# Simple func to calculate the largest product based off "n" consecutive digits
+# in the 1000 character number
 def largest_product(number, places):
     """ Returns the largest product of "n" consecutive digits in a number
         Inputs:
@@ -40,6 +49,6 @@ num = """
 05886116467109405077541002256983155200055935729725
 71636269561882670428252483600823257530420752963450""".replace("\n", "")
 
-# Standard python arg
+# Standard python cmd line args
 if __name__ == "__main__":
     print largest_product(num,13)

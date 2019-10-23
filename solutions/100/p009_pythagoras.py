@@ -1,4 +1,12 @@
 #!/usr/local/bin/python2
+
+# Euler Project
+# Problem 9: https://projecteuler.net/problem=9
+
+# Author: Yibo Weng
+# Date:
+
+# Solves for special pythagorean triplet where a^2 + b^2 = c^2
 import math
 
 def special_pythagoras(number):

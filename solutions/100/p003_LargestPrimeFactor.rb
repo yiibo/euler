@@ -1,9 +1,12 @@
 #!/usr/bin/ruby
 
+# Euler Project
+# Problem 3: https://projecteuler.net/problem=3
+
 # Author: Yibo Weng
 # Date: 22/07/2016
 
-# Find largest prime factor
+# Find largest prime factor of a set of number n
 
 class LargestPrimeFactor
   def initialize(input)

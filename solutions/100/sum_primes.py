@@ -1,7 +1,13 @@
 #!/usr/local/bin/python2
-# Problem 10 of Project Euler
-import time
 
+# Euler Project
+# Problem 10: https://projecteuler.net/problem=10
+
+# Author: Yibo Weng
+# Date:
+
+# Find sum of primes below number n
+import time     # Not needed for code to run, just here to time code runtime
 
 def isPrime(n):
     for i in xrange(3,int(n**0.5)+1,2):
