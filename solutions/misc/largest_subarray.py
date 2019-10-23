@@ -1,4 +1,13 @@
 #!/usr/bin/python
+
+# Euler Project
+# Problem 15: https://projecteuler.net/problem=15
+
+# Author: Yibo Weng
+# Date: 12/03/2019
+
+# Comment: Code is kinda bad and unnecessary as this is more of an exercise in OOP
+#           than anything else
 def compare_pv(arr,idx):
     """ Compares the current value with previous in the array
 
