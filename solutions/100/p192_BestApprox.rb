@@ -1,5 +1,8 @@
 #!/usr/bin/ruby
 
+# Euler Project
+# Problem 192: https://projecteuler.net/problem=192
+
 # Author: Yibo Weng
 # Date: 26/07/2016
 

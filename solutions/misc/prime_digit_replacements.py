@@ -1,5 +1,15 @@
+#!/usr/local/bin/python
+
+# Euler Project
+# Problem 18: https://projecteuler.net/problem=18
+
+# Author: Yibo Weng
+# Date: 23/03/2019
+
+# Notes:
+# Doesn't work anymore after I tried converting from python2 to python3
 from numpy import inf
-from itertools import ifilter, count, product
+import itertools
 
 import time
 import numpy as np
@@ -30,10 +40,10 @@ def replace_positions(marked_array):
 
 def generate_first_family(start_digits,end_digits,n,marker='*'):
     for i in range(start_digits,end_digits):
-        print "Generating products: %d" % i
+        print("Generating products: %d" % i)
         product = list(itertools.product(nums + [marker], repeat=i))
 
-        print "Validating and sorting"
+        print("Validating and sorting")
         is_valid = list(filter(lambda x: marker in x and x[-1] != marker and x[-1] % 2 == 1 and x[0] != 0, product))
         is_valid.sort()
 
@@ -45,5 +55,5 @@ def generate_first_family(start_digits,end_digits,n,marker='*'):
 
 if __name__ == "__main__":
     start_time = time.time()
-    print generate_first_family(2,7,8)
-    print "--- %s seconds ---" % (time.time() - start_time)
+    print(generate_first_family(2,7,8))
+    print("--- %s seconds ---" % (time.time() - start_time))
